@@ -25,10 +25,13 @@ img{
 }
 
 .home img{
-  
+   width: 100%;
+  -webkit-filter: grayscale(100%) contrast(100%);
+  filter: grayscale(100%) contrast(200%) brightness(60%);
 }
+
 .portfolio img{
-  
+  filter: grayscale(100%);
 }
 
 aside{
@@ -45,7 +48,8 @@ aside{
 }
 
 aside img{
-  
+  filter: grayscale(100%) contrast(50%) brightness(100%);
+  margin-bottom: -3px;
 }
 
 .material-icons md-36{
@@ -59,7 +63,7 @@ aside a{
   font-size: 0.75em;
   letter-spacing: 2px;
   transition: all 0.35s;
-  text-tranform: uppercase;
+  text-transform: uppercase;
 }
 
 aside p{
