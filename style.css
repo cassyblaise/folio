@@ -237,3 +237,71 @@ footer {
   font-size: 0.75em;
   text-align: center;
 }
+
+@media(max-width: 789px){
+  .row-halves{
+    display: block;
+  }
+  .row-halves .col{
+    width: 100%;
+    margin: 0 0 10px 0; 
+  }
+}
+
+@media(max-width: 600px) {
+  .aside {
+    display: block;
+  }
+
+  section{
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 25px;
+  }
+
+header{
+  margin-top: 80px;
+  
+}
+
+header h1{
+  font-size: 3em;
+  line-height: 1.3em;
+}
+
+header h4 {
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.mobile_nav{
+   position: fixed;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   background: rgb(0, 0, 0, 0.8);
+   z-index: 1;
+}
+
+.mobile_nav a{
+   width: 100%;
+   color: #b2b2b2;
+   text-transform: uppercase;
+   font-size: 0.875em;
+   letter-spacing: 2px;
+   text-align: center;
+   padding: 10px 10px;
+   transition: all 0.35s;
+}
+
+.mobile_nav a:hover{
+  background: #b2b2b2;
+  color: #222;
+}
+}
+
+@media(min-width:600px){
+     .mobile_nav{
+       display: none;
+     }
+}
