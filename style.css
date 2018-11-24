@@ -66,7 +66,7 @@ aside a{
   text-transform: uppercase;
 }
 
-aside p{
+aside p {
   margin: 0;
   padding: 0;
 }
@@ -106,6 +106,13 @@ header h4{
   font-size: 1em;
   letter-spacing: 4px;
   color: #b2b2b2;
+}
+
+.main-content {
+  position: absolute;
+  margin-left: 140px;
+  padding: 20px;
+  margin-bottom: 100px;
 }
 
 .about,
@@ -169,8 +176,8 @@ header h4{
   width: 65%;
 }
 
-JQuery{
-  width: 20%;
+.watson-chatson{
+  width: 70%;
 }
 
 .portfolio h3{
@@ -202,13 +209,14 @@ JQuery{
   color: #b2b2b2;
   padding: 10px;
 }
-
+/*
 .contact .container{
   margin-top: 20px;
   margin-bottom: 100px;
   background: transparent;
   padding: 20px  0;
 }
+*/
 
 footer {
   border-top: 1px solid #222;
@@ -274,7 +282,7 @@ header h4 {
   letter-spacing: 2px;
 }
 
-.mobile_nav{
+.mobile-nav {
    position: fixed;
    width: 100%;
    display: flex;
@@ -283,7 +291,7 @@ header h4 {
    z-index: 1;
 }
 
-.mobile_nav a{
+.mobile-nav a{
    width: 100%;
    color: #b2b2b2;
    text-transform: uppercase;
@@ -294,14 +302,14 @@ header h4 {
    transition: all 0.35s;
 }
 
-.mobile_nav a:hover{
+.mobile-nav a:hover{
   background: #b2b2b2;
   color: #222;
 }
 }
 
 @media(min-width:600px){
-     .mobile_nav{
+     .mobile-nav{
        display: none;
      }
 }
