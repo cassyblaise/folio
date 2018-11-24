@@ -209,14 +209,14 @@ header h4{
   color: #b2b2b2;
   padding: 10px;
 }
-/*
-.contact .container{
+
+.contact{
   margin-top: 20px;
   margin-bottom: 100px;
   background: transparent;
   padding: 20px  0;
 }
-*/
+
 
 footer {
   border-top: 1px solid #222;
@@ -245,6 +245,8 @@ footer {
   font-size: 0.75em;
   text-align: center;
 }
+
+/* @media Query */
 
 @media(max-width: 789px){
   .row-halves{
