@@ -233,7 +233,7 @@ below are section contact and social media details
   top: 50%;
   text-align: center;
   transform: translateY(-5%);
-  padding-bottom: 160px;
+  padding-bottom: 80px;
 }
 
    .social-media .contact-details {
@@ -241,10 +241,7 @@ below are section contact and social media details
   position: relative;
   width: 150px;
   height: 150px;
-  font-weight: bold;
   border-radius: 50%;
-  border: 2px dashed white;
-  text-decoration: none;
   vertical-align: middle;
   background-clip: content-box;
   margin-right: 15px;
@@ -256,7 +253,7 @@ below are section contact and social media details
   
 }
 
-.fa-stack {
+  .fa-stack {
   display: inline-block;
   height: 8em;
   width: 8.5em;
@@ -264,8 +261,8 @@ below are section contact and social media details
   line-height: 8em;
   position: relative;
 }
-
-  .contact-details span {
+ 
+.social-media .contact-details span {
    display: block;
    position: absolute;
    text-align: center;
@@ -278,8 +275,8 @@ below are section contact and social media details
 .social-media .contact-details:hover {
   padding: 20px;
   color: rgb(17, 16, 16);
-  margin-left: -5px;
-  transform: translateX(10px) rotate(360deg);
+  margin-left: -10px;
+  transform: translateX(20px) rotate(360deg);
 }
 
 /*
