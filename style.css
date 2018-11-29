@@ -210,7 +210,15 @@ header h4{
   color: #b2b2b2;
   padding: 10px;
 }
+
+.col p{
+  background: #222;
+  color: #b2b2b2;
+}
+
 /*
+below are section contact and social media details
+
 .contact{
   margin-top: 20px;
   margin-bottom: 100px;
@@ -219,8 +227,8 @@ header h4{
 }
 */
 
-.social{
-  background: #C8F7C5;
+.social-media {
+  background: rgb(153, 152, 152);
   width: 100%;
   top: 50%;
   text-align: center;
@@ -228,19 +236,58 @@ header h4{
   padding-bottom: 160px;
 }
 
-.social, .contact-detaills{
-  
-  display: inline;
+   .social-media .contact-details {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
   font-weight: bold;
-  margin: 0 35px 45px 35px;
-  list-style-type: none;
-  border-radius: 100%;
+  border-radius: 50%;
   border: 2px dashed white;
   text-decoration: none;
   vertical-align: middle;
   background-clip: content-box;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 10px;
+  font-size: 70px;
+  transition: .5s;
+  color: #313131;
+  
 }
 
+.fa-stack {
+  display: inline-block;
+  height: 8em;
+  width: 8.5em;
+  vertical-align: middle;
+  line-height: 8em;
+  position: relative;
+}
+
+  .contact-details span {
+   display: block;
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+
+.social-media .contact-details:hover {
+  padding: 20px;
+  color: rgb(17, 16, 16);
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+/*
+.social-media .contact-details{
+  background-color: #222;
+  color: #b2b2b2;
+}
+*/
 
 footer {
   border-top: 1px solid #222;
@@ -269,6 +316,7 @@ footer {
   background: #000;
   font-size: 0.75em;
   text-align: center;
+  
 }
 
 /* @media Query */
